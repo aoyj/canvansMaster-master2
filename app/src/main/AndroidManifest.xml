@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aoyj.learn.canvas_master">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".widget.DrawTxtActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".BaseGraphActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".CanvasOperationActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".widget.TestActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".PathLineActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".PathActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PathDrawShaperActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".PathDrawArcActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".PathBezier2Activity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".PathBezier3Activity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".PathOtherActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".PathBooleanOperatorActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PathMeasureActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PathMeasure2Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PaintCapActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PathNextContourActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
